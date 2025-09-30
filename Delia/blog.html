@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DELIA Corporate - Cosmétiques Naturels Béninois</title>
+    <title>Contact - DELIA Corporate</title>
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -46,47 +46,26 @@
             color: white;
             transition: all 0.3s ease;
         }
-
-        .btn-primary:hover {
-            background-color: #2E7D32;
-        }
-
-        .btn-secondary {
-            background-color: #2E7D32;
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        .btn-secondary:hover {
-            background-color: #1B5E20;
-        }
-
-        .hero-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://static.photos/nature/1200x630/42');
-            background-size: cover;
-            background-position: center;
-        }
-
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
     </style>
+
 </head>
-<body class="bg-white">
+<body>
+
+     <!-- Mobile menu -->
+        <div class="<body class="bg-white">
     <!-- Navigation -->
-    <nav id="site-header" class="bg-white shadow-md sticky top-0 z-50 transition-transform duration-300">
+    <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <a href="index.html" class="flex items-center">
-                 <img src="1.png" alt="Awa" class="w-16 h-16 rounded-full mr-4 ">
+                <img src="1.png" alt="Awa" class="w-16 h-16 rounded-full mr-4 ">
                 <span class="font-serif text-2xl font-bold text-primary">DELIA</span>
                 <span class="font-serif text-2xl font-light ml-1">Corporate</span>
             </a>
 
             <div class="hidden md:flex space-x-8">
-                <a href="index.html" class="text-primary font-medium">Accueil</a>
+                <a href="index.html" class="text-gray-600 hover:text-primary transition">Accueil</a>
                 <a href="produits.html" class="text-gray-600 hover:text-primary transition">Produits</a>
-                <a href="a-propos.html" class="text-gray-600 hover:text-primary transition">À propos</a>
+                <a href="a-propos.html" class="text-primary font-medium">À propos</a>
                 <a href="blog.html" class="text-gray-600 hover:text-primary transition">Blog</a>
                 <a href="contact.html" class="text-gray-600 hover:text-primary transition">Contact</a>
             </div>
@@ -100,156 +79,14 @@
                 </button>
             </div>
         </div>
-
-        <!-- Mobile menu -->
         <div class="md:hidden hidden bg-white w-full px-4 py-2 shadow-lg" id="mobile-menu">
-            <a href="index.html" class="block py-2 text-primary font-medium">Accueil</a>
+            <a href="index.html" class="block py-2 text-gray-600 hover:text-primary transition">Accueil</a>
             <a href="produits.html" class="block py-2 text-gray-600 hover:text-primary transition">Produits</a>
-            <a href="a-propos.html" class="block py-2 text-gray-600 hover:text-primary transition">À propos</a>
+            <a href="a-propos.html" class="block py-2 text-primary font-medium">À propos</a>
             <a href="blog.html" class="block py-2 text-gray-600 hover:text-primary transition">Blog</a>
             <a href="contact.html" class="block py-2 text-gray-600 hover:text-primary transition">Contact</a>
         </div>
     </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section text-white py-20 md:py-32">
-        <div class="container mx-auto px-4 text-center" data-aos="fade-up">
-            <h1 class="font-serif text-4xl md:text-6xl font-bold mb-6">Naturel. Local. Authentique.</h1>
-            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Découvrez des cosmétiques naturels fabriqués au Bénin avec des ingrédients locaux pour une peau saine et éclatante.</p>
-            <a href="produits.html" class="btn-primary inline-block px-8 py-3 rounded-full font-medium text-lg">Découvrir nos produits</a>
-        </div>
-    </section>
-
-    <!-- Featured Product -->
-    <section class="py-16 bg-light">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8" data-aos="fade-right">
-                    <img src="8.png" alt="Savon Depa Beauty" class="rounded-lg shadow-lg w-full max-w-md mx-auto">
-                </div>
-                <div class="md:w-1/2" data-aos="fade-left">
-                    <h2 class="font-serif text-3xl md:text-4xl text-primary mb-4">Savon Depa Beauty</h2>
-                    <p class="text-gray-600 mb-6">Notre produit phare, fabriqué à partir de beurre de karité et d'huiles essentielles locales, pour nettoyer, nourrir et protéger votre peau en douceur.</p>
-                    <ul class="mb-6 space-y-2">
-                        <li class="flex items-center">
-                            <i data-feather="check-circle" class="text-primary mr-2"></i>
-                            <span>100% ingrédients naturels</span>
-                        </li>
-                        <li class="flex items-center">
-                            <i data-feather="check-circle" class="text-primary mr-2"></i>
-                            <span>Adapté à tous types de peau</span>
-                        </li>
-                        <li class="flex items-center">
-                            <i data-feather="check-circle" class="text-primary mr-2"></i>
-                            <span>Fabriqué par des femmes béninoises</span>
-                        </li>
-                    </ul>
-                    <div class="flex items-center mb-6">
-                        <span class="text-2xl font-bold text-primary mr-4">3,500 FCFA</span>
-                        <div class="flex items-center text-accent">
-                            <i data-feather="star" class="fill-current"></i>
-                            <i data-feather="star" class="fill-current"></i>
-                            <i data-feather="star" class="fill-current"></i>
-                            <i data-feather="star" class="fill-current"></i>
-                            <i data-feather="star" class="fill-current"></i>
-                            <span class="ml-2 text-gray-600">(24 avis)</span>
-                        </div>
-                    </div>
-                    <a href="depa-beauty.html" class="btn-primary inline-block px-8 py-3 rounded-full font-medium">Commander maintenant</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Values Section -->
-    <section class="py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="font-serif text-3xl text-center text-primary mb-12" data-aos="fade-up">Nos Valeurs</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i data-feather="leaf" class="text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="font-serif text-xl text-primary mb-2">Naturel</h3>
-                    <p class="text-gray-600">Des produits 100% naturels, sans produits chimiques nocifs pour votre peau et l'environnement.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i data-feather="map-pin" class="text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="font-serif text-xl text-primary mb-2">Local</h3>
-                    <p class="text-gray-600">Nous utilisons des ingrédients locaux et soutenons les producteurs béninois.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="fade-up" data-aos-delay="300">
-                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i data-feather="heart" class="text-primary text-2xl"></i>
-                    </div>
-                    <h3 class="font-serif text-xl text-primary mb-2">Social</h3>
-                    <p class="text-gray-600">Nous formons et autonomisons les femmes de Gogounou à travers notre activité.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="py-16 bg-light">
-        <div class="container mx-auto px-4">
-            <h2 class="font-serif text-3xl text-center text-primary mb-12" data-aos="fade-up">Ce qu'ils disent de nous</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
-                    <div class="flex items-center mb-4">
-                        <img src="http://static.photos/people/200x200/1" alt="Awa" class="w-12 h-12 rounded-full mr-4">
-                        <div>
-                            <h4 class="font-medium">Awa</h4>
-                            <p class="text-gray-500 text-sm">Parakou</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-600">"Depuis que j'utilise Depa Beauty, ma peau est plus douce et mon teint est lumineux. Je ne peux plus m'en passer!"</p>
-                    <div class="flex mt-4 text-accent">
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                    </div>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
-                    <div class="flex items-center mb-4">
-                        <img src="http://static.photos/people/200x200/2" alt="Clarisse" class="w-12 h-12 rounded-full mr-4">
-                        <div>
-                            <h4 class="font-medium">Clarisse</h4>
-                            <p class="text-gray-500 text-sm">Cotonou</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-600">"J'aime particulièrement l'odeur naturelle et la douceur du savon. C'est devenu un indispensable de ma routine beauté."</p>
-                    <div class="flex mt-4 text-accent">
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                    </div>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
-                    <div class="flex items-center mb-4">
-                        <img src="http://static.photos/people/200x200/3" alt="Fatou" class="w-12 h-12 rounded-full mr-4">
-                        <div>
-                            <h4 class="font-medium">Fatou</h4>
-                            <p class="text-gray-500 text-sm">Gogounou</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-600">"En plus d'être un excellent produit, je suis fière de soutenir une entreprise qui valorise les femmes de ma région."</p>
-                    <div class="flex mt-4 text-accent">
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                        <i data-feather="star" class="fill-current"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Blog Preview -->
     <section class="py-16">
@@ -308,7 +145,8 @@
         </div>
     </section>
 
-    <!-- Footer -->
+
+     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-4 gap-8">
@@ -391,23 +229,5 @@
             feather.replace();
         });
     </script>
-    <script>
-  let lastScroll = 0;
-  const header = document.getElementById("site-header");
-
-  window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-
-    if (currentScroll > lastScroll) {
-      // On descend → cacher le header
-      header.classList.add("-translate-y-full");
-    } else {
-      // On remonte → montrer le header
-      header.classList.remove("-translate-y-full");
-    }
-
-    lastScroll = currentScroll;
-  });
-</script>
 </body>
 </html>
